@@ -1,0 +1,83 @@
+/* Login */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+} 
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family : montserrat;
+    background : linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow : hidden;
+}
+
+.container{
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius : 10px;
+}
+
+.container h1 {
+    text-allign: center;
+    padding: 0 0 20px 0;
+    border-bottom : 1px solid silver; 
+}
+
+.container form{
+    padding : 0 40px;
+    box-sizing: border-box;
+}
+
+.user-box {
+    position: relative;
+    border-bottom : 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background : none;
+    outline : none;
+}
+
+.navbar {
+    background: white;
+}
+
+.navbar_Logout {
+    background-color: red;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			cursor: pointer;
+            background-color: darkred;
+            border-radius: 10%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0%;
+
+    background-color: white;
+}
